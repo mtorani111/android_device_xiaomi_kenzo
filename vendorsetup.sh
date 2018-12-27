@@ -1,2 +1,2 @@
-add_lunch_combo havoc_kenzo-userdebug
-add_lunch_combo havoc_kenzo-eng
+add_lunch_combo xtended_kenzo-userdebug
+add_lunch_combo xtended_kenzo-eng
