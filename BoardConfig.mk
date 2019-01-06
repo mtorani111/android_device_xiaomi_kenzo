@@ -38,6 +38,11 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Sepolicy
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Hal's
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8952
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8952
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8952
+
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
